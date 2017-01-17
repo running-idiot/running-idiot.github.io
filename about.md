@@ -4,4 +4,4 @@ title: Обо мне
 permalink: /about/
 ---
 
-раньше я писал в [ЖЖ](http://running-idiot.livejournal.com/), но теперь решил попробовать GitHub Pages
+Люблю бегать трейлы и писать при них отчёты. Раньше я писал в [ЖЖ](http://running-idiot.livejournal.com/), но теперь решил попробовать GitHub Pages
