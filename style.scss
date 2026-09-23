@@ -252,6 +252,13 @@ nav {
 }
 
 .post {
+  .photo-caption {
+    margin: -5px 0 25px;
+    color: $gray;
+    font-size: 0.875em;
+    text-align: center;
+  }
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
