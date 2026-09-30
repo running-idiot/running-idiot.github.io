@@ -252,6 +252,24 @@ nav {
 }
 
 .post {
+  .route-period {
+    display: inline-block;
+    min-width: 3.2em;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .route-period-day { background-color: #fff5d6; color: #775300; }
+  .route-period-night { background-color: #e2e9f4; color: #334c70; }
+  .route-period-dawn, .route-period-dusk { background-color: #f6e7d7; color: #784b25; }
+
+  .route-legend { line-height: 2; }
+  .route-note { font-size: 14px; color: $gray; }
+
   .route-table {
     display: block;
     max-width: 100%;
@@ -259,6 +277,10 @@ nav {
     margin: 30px 0;
     border-collapse: collapse;
     line-height: 1.5;
+
+    tr:has(.route-period-day) { background-color: #fffdf6; }
+    tr:has(.route-period-night) { background-color: #edf2f9; }
+    tr:has(.route-period-dawn), tr:has(.route-period-dusk) { background-color: #faf1e7; }
 
     th, td {
       border: 1px solid #ccc;
